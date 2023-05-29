@@ -1,0 +1,97 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: fit-content;
+    color: aliceblue;
+    background-color: black;
+    text-emphasis-color: aliceblue;
+}
+ul {
+    display: table;
+}
+li {
+    display: table-row;
+    width :200px;
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+    padding-left: 30px;
+}
+button{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    float: right;
+}
+
+#head{
+    font-size: 30px;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #000000;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+.btn-1 {
+    background: rgb(227, 228, 236);
+    background: linear-gradient(0deg, rgb(165, 165, 170) 0%rgb(219, 221, 239) 100%);
+    border: none;
+}
+.btn-1:hover {
+    background: rgb(241, 241, 241);
+    background: linear-gradient(0deg, rgb(248, 248, 248) 0%rgb(56, 158, 254) 100%);
+}
+.divtopleft{
+    /* border: solid beige 2px; */
+    height: 100%;
+    width: 30vw;
+    float : left
+}
+.divtopright{
+    background: url('ramen.jpeg');
+    background-size: contain;
+    /* border: solid rgb(128, 165, 199) 4px; */
+    background-color: transparent;
+    /* background-image: linear-gradient(to  top, rgb(23, 2, 58) , black); */
+    height: 183vh;
+    width: 39vw;
+    position : relative ;
+    float : right;
+    margin-right: 200px;
+}
+.divtoprightbut {
+    margin-right: 55px;
+    margin-top: 35px;
+}
+
+.button {
+    /* border: 1px solid cadetblue; */
+    text-align: center;
+    font-size: medium;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    margin: 4px 4px;
+    padding: 15px;
+    color: gainsboro;
+    border:solid gainsboro 1.75px;
+}
+
+.butround {
+    background-color: transparent;
+    border-radius: 50%;
+    /* margin-left: 90%; */
+}
+
+.butround:hover {
+    background-color: cadetblue;
+    color: white;
+}

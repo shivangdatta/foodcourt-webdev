@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+	<div class="divtoprightbut">
+		<!-- Cart -->
+		<!-- <button class="button butround">
+			<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
+				<path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+			</svg> 
+		</button> -->
+		<a href="homepage.html">
+			<button class="button butround">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-houses" viewBox="0 0 16 16">
+					<path d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708L5.793 1Zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708L8.793 2Zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207l-4.5-4.5Z"/>
+				</svg>
+			</button>
+		</a>
+	</div>
+
+    <h1 style="font-size: 50px; ">The Dragon's Inn</h1>
+    <div class="divtopleft">
+
+        <ul>
+            <li>
+                <div id="head">Starters</div> <br>
+			<ul style="font-size: 20px;">
+				<li>Yaktori   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button class="custom-btn btn-1" onclick="addToCart('Yaktori  ', 10.99)">Add to cart</button></li>
+				<li>Edamame <button class="custom-btn btn-1" onclick="addToCart('Edamame', 12.99)">Add to cart</button></li>
+				<li>Gyoza <button class="custom-btn btn-1" onclick="addToCart('Gyoza', 13.99)">Add to cart</button></li>
+				<li>Takoyaki <button class="custom-btn btn-1" onclick="addToCart('Takoyaki', 15.99)">Add to cart</button></li>
+			</ul>
+		</li>
+		<li>
+			<div id="head">Ramen</div> <br>
+			<ul style="font-size: 20px;">
+				<li>Tonkotsu ramen &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <button class="custom-btn btn-1" onclick="addToCart('Tonkotsu ramen', 9.99)">Add to cart</button></li>
+				<li>Miso Ramen <button class="custom-btn btn-1" onclick="addToCart('Miso Ramen', 11.99)">Add to cart</button></li>
+				<li>Shoyu Ramen <button class="custom-btn btn-1" onclick="addToCart('Shoyu Ramen', 12.99)">Add to cart</button></li>
+				<li>Shio Ramen <button class="custom-btn btn-1" onclick="addToCart('Shio Ramen', 10.99)">Add to cart</button></li>
+			</ul>
+		</li>
+		<li>
+			<div id="head">Salads</div> <br>
+			<ul style="font-size: 20px;">
+				<li>Daikon Salad  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button class="custom-btn btn-1" onclick="addToCart('Daikon Salad ', 8.99)">Add to cart</button></li>
+				<li>Kani Salad <button class="custom-btn btn-1" onclick="addToCart('Kani Salad', 9.99)">Add to cart</button></li>
+				<li>Soba Noodle Salad <button class="custom-btn btn-1" onclick="addToCart('Soba Noodle Salad', 7.99)">Add to cart</button></li>
+				<li>Edamame Salad <button class="custom-btn btn-1" onclick="addToCart('Edamame Salad', 8.99)">Add to cart</button></li>
+			</ul>
+		</li>
+		<li>
+			<div id="head">Donburi</div> <br>
+			<ul style="font-size: 20px;">
+                <li>Ikura Don  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button class="custom-btn btn-1" onclick="addToCart('Ikura Don ', 6.99)">Add to cart</button></li>
+				<li>Katsudon <button class="custom-btn btn-1" onclick="addToCart('Katsudon', 5.99)">Add to cart</button></li>
+				<li>Oyakodon <button class="custom-btn btn-1" onclick="addToCart('Oyakodon', 4.99)">Add to cart</button></li>
+				<li>Ten Don <button class="custom-btn btn-1" onclick="addToCart('Ten Don', 5.99)">Add to cart</button></li>
+			</ul>
+		</li>
+		<li>
+            <div id="head">Beverages</div> <br>
+			<ul style="font-size: 20px;">
+                <li>Soda &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button class="custom-btn btn-1" onclick="addToCart('Soda', 2.99)">Add to cart</button></li>
+				<li>Wine <button class="custom-btn btn-1" onclick="addToCart('Wine', 12.99)">Add to cart</button></li>
+				<li>Beer <button class="custom-btn btn-1" onclick="addToCart('Beer', 4.99)">Add to cart</button></li>
+				<li>Sake <button class="custom-btn btn-1" onclick="addToCart('Sake',4.99)">Add to cart</button></li>
+			</ul>
+	</ul>
+    </div>
+	<div class="divtopright"></div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
